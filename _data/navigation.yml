@@ -9,11 +9,11 @@ main:
   - title: "Competitions"
     url: /#competitions
   
-  - title: "Datasets"
-    url: /#datasets
+  # - title: "Datasets"
+  #   url: /#datasets
   
-  - title: "Honors"
-    url: /#honors-and-awards
+  # - title: "Honors"
+  #   url: /#honors-and-awards
 
   
   

@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ziyi Ye"
+title                    : "Dongyang Li"
 title_separator          : "-"
-name                     : &name "叶子逸(Ziyi Ye)"
-description              : &description "Ph.D. student at Tsinghua University"
-url                      : https://YeZiyi1998.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "李东洋(Dongyang Li)"
+description              : &description "M.S. student at Southern University of Science and Technology"
+url                      : https://dongyangli-del.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "YeZiyi1998/YeZiyi1998.github.io"
+repository               : "dongyangli-del/dongyangli-del.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ziyi Ye"
-  avatar           : "profile.png"
-  bio              : "PhD student at Tsinghua University"
-  location         : "Beijing, China"
+  name             : "Dongyang Li"
+  avatar           : "images/profile.png"
+  bio              : "Master student at Southern University of Science and Technology"
+  location         : "Shenzhen, China"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : yeziyi1998@gmail.com
+  email            : lidy2023@mail.sustech.edu.cn
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "YeZiyi1998"
+  github           : "dongyangli-del"
   google_plus      :
   keybase          :
   instagram        :

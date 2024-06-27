@@ -28,11 +28,14 @@ Publications
 
 * ***Li, Dongyang*** and Wei, Chen and Li, Shiying and Zou, Jiachen and Liu, Quanying. "Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion.", arXiv preprint arXiv:2403.07721, 2024. [Preprint Version](https://arxiv.org/abs/2403.07721). [Code](https://github.com/dongyangli-del/EEG_Image_decode).
 
-<!-- 
+
 Competitions
 ======
-* We won the 1st place in TASK 2 (Relevant Statue Retrieval Task) of AILA 2019 (Artificial Intelligence for Legal Assisstance). [Working Notes](http://ceur-ws.org/Vol-2517/T1-8.pdf).
-* We won the 1st place in the NTCIR-15 Micro-activity Retrieval Task. [Working Notes](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings15/pdf/ntcir/06-NTCIR15-MART-LiJ.pdf). -->
+* We won the Provincial Special Award and National Bronze Award of "Challenge Cup" National University Student Innovation and Entrepreneurship Plan Competition in 2020. 
+* We won the National First Prize (I'm the Captain) of China Robot Competition and RobotCup Advanced Vision Competition ( 3D Recognition Project) in 2022.
+* We won the National First Prize (I'm the Captain) of China Robot Competition and RobotCup Advanced Vision Competition(Industrial Measurement Project) in 2022.
+
+
 <!-- 
 Datasets
 ======

@@ -32,8 +32,8 @@ Publications
 Competitions
 ======
 * We won the Provincial Special Award and National Bronze Award of "Challenge Cup" National University Student Innovation and Entrepreneurship Plan Competition in 2020. 
-* We won the National First Prize (I'm the Captain) of China Robot Competition and RobotCup Advanced Vision Competition ( 3D Recognition Project) in 2022.
-* We won the National First Prize (I'm the Captain) of China Robot Competition and RobotCup Advanced Vision Competition(Industrial Measurement Project) in 2022.
+* We won the National First Prize (I'm the Captain) of China Robot Competition and RobotCup Advanced Vision Competition (3D Recognition Project) in 2022.
+* We won the National First Prize (I'm the Captain) of China Robot Competition and RobotCup Advanced Vision Competition (Industrial Measurement Project) in 2022.
 
 
 <!-- 

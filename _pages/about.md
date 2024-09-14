@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am now a 2nd year M.S. student in [NCClab](https://www.sustech.edu.cn/zh/faculties/liuquanying.html), Department of Biomedical Engineering in [Southern University of Science and Technology](https://www.sustech.edu.cn/), Shenzhen, China. My supervisor is [Prof. Quanying Liu](https://faculty.sustech.edu.cn/?tagid=liuqy&iscss=1&snapid=1&orderby=date&go=1). I have the pleasure in working with Chen Wei (University of Birmingham), Jiachen Zou (SUSTech).
+I am currently a 2nd-year M.S. student in [NCClab](https://www.sustech.edu.cn/zh/faculties/liuquanying.html), Department of Biomedical Engineering in [Southern University of Science and Technology](https://www.sustech.edu.cn/), Shenzhen, China. My supervisor is [Prof. Quanying Liu](https://faculty.sustech.edu.cn/?tagid=liuqy&iscss=1&snapid=1&orderby=date&go=1). I have the pleasure of working with Chen Wei (University of Birmingham), Jiachen Zou (SUSTech).
 
 My major research interests include multimodal large models, brain-computer interface (BCI), representation learning, etc.
 

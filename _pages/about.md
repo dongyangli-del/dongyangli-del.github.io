@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am now a First year M.S. student in [NCClab](https://www.sustech.edu.cn/zh/faculties/liuquanying.html), [Department of Biomedical Engineering in Southern University of Science and Technology](https://www.sustech.edu.cn/), Shenzhen, China. My supervisor is [Prof. Quanying Liu](https://faculty.sustech.edu.cn/?tagid=liuqy&iscss=1&snapid=1&orderby=date&go=1). My major research interests are about multimodal large model, non-invasive brain computer interface and etc.
+I am now a 2nd year M.S. student in [NCClab](https://www.sustech.edu.cn/zh/faculties/liuquanying.html), [Department of Biomedical Engineering in Southern University of Science and Technology](https://www.sustech.edu.cn/), Shenzhen, China. My supervisor is [Prof. Quanying Liu](https://faculty.sustech.edu.cn/?tagid=liuqy&iscss=1&snapid=1&orderby=date&go=1). I have the pleasure in working with Chen Wei (University of Birmingham), Jiachen Zou (SUSTech).
+
+My major research interests are about multimodal large model, non-invasive brain computer interface and etc.
 
 Education
 ======
@@ -16,12 +18,15 @@ Education
 
 * [08.2023-present] M.S. student, Department of Biomedical Engineering, Southern University of Science and Technology, China.
 
-<!-- 
+
 News
-======  
-* 12.2023, I gave an invited talk in the Institute of Information in University of Amsterdam about ***Language Generation from Brain Recordings***. [Slide](https://yeziyi1998.github.io/files/Language_Generation_from_Brain_Recordings_240312.pdf)
-* 07.2023, I gave an invited talk to Lenovo Inc about ***Context-based Brain Decoding***. [Slide](https://yeziyi1998.github.io/files/Language_Generation_from_Brain_Recordings_240312.pdf)
-* 09.2023, I gave an invited talk in Machine Learning Section of Copenhagen University about ***Brain-Computer Interface for Search***. [Slide](https://yeziyi1998.github.io/files/BMI4Search_KU_230918.pdf) -->
+<!-- ======  
+ -->
+
+- **[08/2024]** Give an oral presentation on HBAI at IJCAI 2024. [Slide](https://dongyangli-del.github.io/files/HBAI_2024_DongyangLi.pdf)
+- **[06/2024]** One paper is accepted to a Workshop of Human Brain and Artificial Intelligence (HBAI) at IJCAI 2024. [HBAI link](https://hbai2024.github.io/)
+
+
 
 Publications
 ======

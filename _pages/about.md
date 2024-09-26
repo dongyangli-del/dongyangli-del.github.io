@@ -22,7 +22,7 @@ Education
 ## News
 <!-- ======  
  -->
-
+- **[09/2024]** One paper is accepted to NeurIPS 2024. [Paper](https://arxiv.org/abs/2403.07721)
 - **[08/2024]** Give an oral presentation on HBAI at IJCAI 2024. [Slide](https://dongyangli-del.github.io/files/HBAI_2024_DongyangLi.pdf)
 - **[06/2024]** One paper is accepted to a Workshop of Human Brain and Artificial Intelligence (HBAI) at IJCAI 2024. [HBAI link](https://hbai2024.github.io/)
 

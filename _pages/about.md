@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me: Dongyang Li（李东洋）"
+title: "About me: Dongyang Li（李东洋）" 
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,7 +12,7 @@ I am currently a 2nd-year M.S. student in [NCClab](https://www.sustech.edu.cn/zh
 
 My major research interests include multimodal large models, brain-computer interface (BCI), representation learning, etc.
 
-[**Download my CV**](https://dongyangli-del.github.io/files/Dongyang_Li_CV_resume.pdf)
+[Download my CV](https://dongyangli-del.github.io/files/Dongyang_Li_CV_resume.pdf)
 
 Education
 ======

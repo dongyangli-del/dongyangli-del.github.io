@@ -12,6 +12,8 @@ I am currently a 2nd-year M.S. student in [NCClab](https://www.sustech.edu.cn/zh
 
 My major research interests include multimodal large models, brain-computer interface (BCI), representation learning, etc.
 
+[**Download my CV**](https://dongyangli-del.github.io/files/Dongyang_Li_CV_resume.pdf)
+
 Education
 ======
 * [08.2019-07.2023] B.S. student, School of Computer and Artificial Intelligence, Zhengzhou University, China.

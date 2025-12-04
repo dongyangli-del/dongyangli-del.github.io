@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dongyang Li (李东洋)</title>
+  <meta name="author" content="Dongyang Li (李东洋)">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧸</text></svg>">
+  <style>
+    :root {
+      --main: #1763A6;
+      --accent: #ffb300;
+      --bg: #fafbfc;
+      --card: #fff;
+      --text: #272c36;
+      --text-weak: #666;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      background: var(--bg);
+      margin: 0;
+      font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 900px;
+      margin: 32px auto 24px auto;
+      padding: 0 8px;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      box-shadow: 0 2px 8px #e9eef6;
+      margin-bottom: 32px;
+      padding: 32px 28px 24px 28px;
+      border: 1px solid var(--border);
+    }
+    /* header */
+    .header {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+    .avatar {
+      width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 3px solid var(--main); box-shadow: 0 0 18px #e2e8f0;
+      transition: transform 0.2s ease; background: #e6ecf3;
+    }
+    .header-content { flex:1; min-width: 230px; }
+    .name {
+      font-size: 2.3rem;
+      font-weight: bold;
+      color: var(--main);
+      line-height: 1.1;
+      letter-spacing: -1.5px;
+      margin-bottom: 0.2em;
+      margin-top: 0.2em;
+      text-align: left
+    }
+    .intro {
+      font-size: 1.08rem;
+      margin: 6px 0;
+    }
+    .intro b,.intro strong{color:var(--main)}
+    /* social icons */
+    .social-bar {
+      margin-top: 13px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .social-btn {
+      background: var(--main);
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border: none;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .social-btn:hover { background: var(--accent); color: var(--text); transform: scale(1.1); }
+    /* section titles */
+    h2 {
+      font-size: 1.42rem;
+      color: var(--main);
+      margin-top: 5px;
+      margin-bottom: 18px;
+      font-weight: 700;
+      border-left: 5px solid var(--accent);
+      padding-left: 10px;
+      letter-spacing: 1px;
+    }
+    /* news */
+    .news-list { padding-left: 10px; font-size: 1.04rem; }
+    .news-list li { margin-bottom: 8px; }
+    .news-list .paper {color:red;font-weight:700;}
+    /* pubs */
+    .pub-list { display: grid; gap: 26px; }
+    .pub-card { display: flex; background: #f7fafc; border-radius: 10px; border: 1px solid #ecedf2; padding: 18px; gap: 22px; }
+    .pub-img { width: 90px; height: 90px; border-radius:12px; object-fit:cover; background:#e6ecf3; }
+    .pub-info { flex:1; font-size:1.05rem; }
+    .pub-title { font-weight: bold; color:var(--main); }
+    .pub-meta { font-size: 0.98em; color:var(--text-weak); margin-bottom:4px; }
+    .pub-links a{color:var(--accent); font-size: 0.97em; text-decoration:none; margin-right:10px;}
+    .pub-links a:hover{text-decoration: underline;}
+    /* Edu/Exp */
+    .card-row {display: flex; flex-wrap:wrap; align-items: flex-start; gap: 20px;}
+    .card-logo { width: 65px; height: 65px; border-radius: 9px; background: #e6ecf3; object-fit:contain; box-shadow: 0 2px 8px #f2f5fa }
+    .card-details { flex:1; min-width:180px; }
+    .card-title { font-size: 1.12rem; font-weight: 600; margin:0;}
+    .card-meta { color:var(--text-weak); font-size: 0.98em; margin:3px 0 8px 0;}
+    .card-desc {font-size: 1em;}
+    /* Service */
+    .service { font-size: 1.09em; margin-left:10px;}
+    /* Footer */
+    .footer{ font-size: 0.97em; color:#888; text-align:right; margin-top:40px;}
+    /* Responsive */
+    @media(max-width:590px){
+      .header {flex-direction:column;align-items: flex-start;gap:12px;}
+      .card{padding:20px 9px;}
+      .pub-card{flex-direction: column; align-items:center;}
+      .card-row{flex-direction:column;align-items:flex-start;gap:10px;}
+      .footer{margin-top:15px}
+    }
+  </style>
+  <!-- FontAwesome via CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card header">
+      <img src="myassets/profile.jpg" class="avatar" alt="profile photo">
+      <div class="header-content">
+        <div class="name">Dongyang Li <span style="font-size: 1rem;color:var(--text-weak)">(李东洋)</span></div>
+        <div class="intro">
+          Hi! 👋😋 I am currently a 3rd-year M.S. student in <a href="https://faculty.sustech.edu.cn/?tagid=liuqy&iscss=1&snapid=1&orderby=date&go=1">NCClab@SUSTech</a>, major in Electronic Engineering at <a href="https://www.sustech.edu.cn/en/">Southern University of Science and Technology</a>, Shenzhen, China.<br>
+          My supervisor is <a href="https://www.sustech.edu.cn/zh/faculties/liuquanying.html">Prof. Quanying Liu</a>. I have previously closely worked with <a href="https://mi.eng.cam.ac.uk/~cz277/">Prof. Chao Zhang</a>. Now I am also closely working with <a href="https://shaoli-huang.github.io/">Dr. Shaoli Huang</a>.<br>
+          <b>Research interests:</b> Multimodal Large Language Models (MLLMs), Brain-Computer Interface (BCI), AI4Neuroscience, NeuroAI etc.<br>
+          <span style="color: #D07C22;font-weight:bold">🎯 Actively applying for <b>Fall 2026 PhD programs</b> - Feel free to reach out!</span>
+        </div>
+        <div style="margin-top:8px;font-size:0.97em; color:#444; font-weight:bold;">Feel free to contact me by email if you are interested in discussing or collaborating with me.</div>
+        <div class="social-bar">
+          <a class="social-btn" title="Email" href="mailto:lidy2023@mail.sustech.edu.cn"><i class="fa-solid fa-envelope"></i></a>
+          <a class="social-btn" title="Google Scholar" href="https://scholar.google.com/citations?user=4VTOeU4AAAAJ&hl=zh-CN&oi=ao"><i class="fa-brands fa-google-scholar"></i></a>
+          <a class="social-btn" title="Github" href="https://github.com/dongyangli-del"><i class="fa-brands fa-github"></i></a>
+          <a class="social-btn" title="LinkedIn" href="https://www.linkedin.com/in/dongyang-li-43a4b5320/"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a class="social-btn" title="CV"><i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+        <small style="display:block;margin-top:9px;font-size:0.99em">CV: <a href="https://dongyangli-del.github.io/files/Dongyang_Li_CV.pdf">PDF完整版</a></small>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li><b>[10/2025]</b> Joined <a href="https://www.agibot.com/">AGIBot</a> as Intern Researcher. Started doing research on humanoid robot motion generation.</li>
+        <li><b>[07/2025]</b> One paper is accepted to <span class="paper">ACM MM 2025 Oral</span>. <a href="https://arxiv.org/abs/2507.09747">[Paper]</a></li>
+        <li><b>[05/2025]</b> Joined <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> as Intern Researcher. Started doing research on speech signals processing.</li>
+        <li><b>[03/2025]</b> One paper is accepted to ICME 2025. <span class="paper">Oral</span> <a href="https://arxiv.org/abs/2410.23754">[Paper]</a></li>
+        <li><b>[12/2024]</b> Invited talk at NeurIPS Workshop. <a href="https://dongyangli-del.github.io/files/DongyangLi-20241201.pdf">[Slide]</a></li>
+        <li><b>[09/2024]</b> One paper is accepted to <b>NeurIPS 2024</b>. [Poster] <a href="https://arxiv.org/abs/2403.07721">[Paper]</a> <a href="https://github.com/dongyangli-del/EEG_Image_decode">[Code]</a></li>
+        <li><b>[08/2024]</b> Oral presentation on HBAI workshop at IJCAI 2024. <a href="https://dongyangli-del.github.io/files/HBAI_2024_DongyangLi.pdf">[Slide]</a></li>
+        <li><b>[06/2024]</b> One paper is accepted to a Workshop of Human Brain and Artificial Intelligence (HBAI) at IJCAI 2024. <a href="https://hbai2024.github.io/">[HBAI]</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Selected Publications</h2>
+      <div class="pub-list">
+        <div class="pub-card">
+          <img class="pub-img" src="myassets/BrainFLORA.png" alt="BrainFLORA">
+          <div class="pub-info">
+            <div class="pub-title">BrainFLORA: Uncovering Brain Concept Representation via Multimodal Neural Embeddings</div>
+            <div class="pub-meta">ACM MM 2025 <span class="paper">Oral</span></div>
+            <div class="pub-meta"><strong>Dongyang Li*</strong>, Haoyang Qin*, Mingyang Wu, Chen Wei, Quanying Liu</div>
+            <div class="pub-links">
+              <a href="https://github.com/ncclab-sustech/BrainFLORA">Project</a>
+              <a href="https://arxiv.org/abs/2507.09747">arXiv</a>
+              <a href="https://github.com/ncclab-sustech/BrainFLORA">Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="pub-card">
+          <img class="pub-img" src="myassets/EEG_Image_decode.png" alt="EEG_Image_decode">
+          <div class="pub-info">
+            <div class="pub-title">Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion</div>
+            <div class="pub-meta">NeurIPS 2024 Poster</div>
+            <div class="pub-meta"><strong>Dongyang Li*</strong>, Chen Wei*, Shiying Li, Jiachen Zou, Quanying Liu</div>
+            <div class="pub-links">
+              <a href="https://github.com/dongyangli-del/EEG_Image_decode">Project</a>
+              <a href="https://arxiv.org/abs/2403.07721">arXiv</a>
+              <a href="https://github.com/dongyangli-del/EEG_Image_decode">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="card">
+      <h2>Education</h2>
+      <div class="card-row">
+        <img class="card-logo" src="myassets/sustech_logo.png" alt="SUSTech">
+        <div class="card-details">
+          <div class="card-title">Southern University of Science and Technology</div>
+          <div class="card-meta">Sep 2023 - Jun 2026 (expected)</div>
+          <div class="card-desc"><em>M.Sc. in Electronic Science and Technology</em></div>
+        </div>
+      </div>
+      <div class="card-row">
+        <img class="card-logo" src="myassets/zzu_logo.png" alt="ZZU">
+        <div class="card-details">
+          <div class="card-title">Zhengzhou University</div>
+          <div class="card-meta">Sep 2019 - Jun 2023</div>
+          <div class="card-desc"><em>B.Eng. in Computer Science and Technology</em></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Experience</h2>
+      <div class="card-row">
+        <img class="card-logo" src="myassets/agibot_logo.png" alt="AGIBot">
+        <div class="card-details">
+          <div class="card-title">AGIBot</div>
+          <div class="card-meta">Oct 2025 - Present</div>
+          <div class="card-desc"><em>Research Intern</em><br>Research on humanoid robot motion generation</div>
+        </div>
+      </div>
+      <div class="card-row">
+        <img class="card-logo" src="myassets/shlab_logo.png" alt="Shanghai AI Lab">
+        <div class="card-details">
+          <div class="card-title">Shanghai AI Laboratory</div>
+          <div class="card-meta">May 2025 - Oct 2025</div>
+          <div class="card-desc"><em>Research Intern</em><br>Research on speech signals processing</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Academic Services</h2>
+      <div class="service">
+        Conference Reviewer for ICLR, ICML, NeurIPS, ACL, KDD, AAAI.<br>
+        <!-- Journal Reviewer for TPAMI, IJCV, ACM Computing Surveys. -->
+      </div>
+    </section>
+    <div class="footer">
+      Webpage template borrowed from <a href="https://github.com/jonbarron/jonbarron_website">this</a>.
+    </div>
+  </main>
+</body>
+</html>

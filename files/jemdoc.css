@@ -408,3 +408,13 @@ ul.news-list li {
 	margin-top: 0.25em;
 	line-height: 1.35;
 }
+
+ul.resume-list {
+	margin-top: 0.1em;
+	margin-bottom: 0.6em;
+}
+
+ul.resume-list li {
+	margin-top: 0.5em;
+	line-height: 1.4;
+}
